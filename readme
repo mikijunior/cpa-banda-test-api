@@ -1,0 +1,4 @@
+To start working with app please create a config file `<project_folder>/configs/apiserver.toml`
+Run the API: `make run`
+Build the API: `make build`
+Run migration: `make migrate-up u=<db_username> p=<db_password> host=<db_host> name=<db_name>`
